@@ -1,0 +1,11 @@
+.form_input {
+    background-color:white;
+    padding: 27px 30px;
+    border-radius: 17px;
+    /* color: #6C6C6C; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 0.84px;
+    outline: none;
+}

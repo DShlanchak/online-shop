@@ -1,0 +1,10 @@
+.form_btn {
+    background-color: #339933;
+    padding: 22px 0;
+    border-radius: 17px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%; 
+    letter-spacing: 0.84px;
+}

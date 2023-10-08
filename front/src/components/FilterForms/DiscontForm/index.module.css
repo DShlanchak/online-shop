@@ -1,0 +1,15 @@
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.checkbox p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.checkbox input {
+    width: 20px;
+    height: 20px;
+}

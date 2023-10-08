@@ -1,0 +1,48 @@
+.banner_sale {
+    height: 600px;
+    padding-left: 50px;
+    background-color: #A1E2EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.banner_sale img {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    z-index: 50;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    z-index: 100;
+}
+
+.info h2{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.info > p{
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: white;
+    padding: 25px 40px;
+    width: max-content;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+       
