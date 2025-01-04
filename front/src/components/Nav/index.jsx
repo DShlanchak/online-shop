@@ -26,7 +26,7 @@ export default function Nav() {
           <div className={s.cart}><PiShoppingCartSimpleThin/> 
             {cart_state.length === 0
             ? ''
-            :<div className={s.cart_count}>{cart_state.reduce((acc, {count}) => acc + count, 0)}</div>
+            :<div className={s.cart_count}>{cart_state.length}</div>
             }
           </div>
         </Link>  
@@ -35,3 +35,5 @@ export default function Nav() {
     </div>
   )
 }
+
+//{cart_state.reduce((acc, {count}) => acc + count, 0)}
