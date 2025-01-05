@@ -4,10 +4,6 @@ import s from './index.module.css';
 
 export default function Footer() {
 
-  // const iframe_style = {
-  //   border: 'none'
-  // }
-
   return (
     <div className={[s.footer, 'wrapper_1380'].join(' ')}>
       <div className={s.footer_top}>
@@ -37,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-       <iframe frameBorder='no' width="100%" height="525" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Linkstra%C3%9Fe%202%20Berlin+(telranDE)&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+       <iframe frameBorder='no' width="100%" height="525" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Linkstra%C3%9Fe%202%20Berlin+(telranDE)&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" title="Map"></iframe>
     </div>
 
   )

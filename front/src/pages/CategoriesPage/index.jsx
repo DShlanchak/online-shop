@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import CategoriesContainer from '../../components/CategoriesContainer';
-import FormItem from '../../components/FormItem';
 
 export default function CategoriesPage() {
 

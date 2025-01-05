@@ -11,7 +11,7 @@ export default function ProductsByCategoryPage() {
 
   const dispatch = useDispatch();
 
-  useEffect(() => dispatch(getProductsByCategory(id)), [dispatch])
+  useEffect(() => dispatch(getProductsByCategory(id)), [dispatch, id])
 
   const {data, category} = useSelector(state => state.productsByCategory)
 

@@ -10,7 +10,7 @@ export default function CartItem({ id, image, title, price, discont_price, count
   return (
     <div className={s.card}>
       <div className={s.img}>
-        <img src={`http://localhost:3333${image}`} alt="photo" />
+        <img src={`http://localhost:3333${image}`} alt="Product" />
       </div>
       <div className={s.info}>
         <p>{ title }</p>

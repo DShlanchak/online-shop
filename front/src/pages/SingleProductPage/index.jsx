@@ -11,7 +11,7 @@ export default function SingleProductPage() {
 
   const dispatch = useDispatch();
 
-  useEffect(() => dispatch(getSingleProducts(id)), [dispatch]);
+  useEffect(() => dispatch(getSingleProducts(id)), [dispatch, id]);
 
   const single_product_state = useSelector(state => state.singleProduct)
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import CartItem from '../CartItem';
 import {Link} from 'react-router-dom'
 import s from './index.module.css';
@@ -11,8 +11,6 @@ import empty_cart from './media/empty-cart.png'
 export default function Cart() {
 
   const cart_state = useSelector(state => state.cart);
-
-  console.log(cart_state);
 
   useEffect(() => {
     localStorage.setItem('shopping_cart', JSON.stringify(cart_state))
